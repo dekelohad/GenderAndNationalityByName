@@ -1,0 +1,23 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    padding: 0.4em;
+    margin: 0.5em auto;
+    border-radius: 10px;
+    color: gold;
+    background: linear-gradient(72.2deg, #39454c 0%, #64757e 100%);
+    box-shadow: 1px 1px 10px blue;
+    font-size: 1.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-disabled {
+    background: none;
+    box-shadow: none;
+    cursor: not-allowed;
+    background: red;
+    color: white;
+}

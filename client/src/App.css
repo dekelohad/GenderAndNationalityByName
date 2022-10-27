@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roberto, Assistant, Open-Sans, Helvetica, Sans-Serif;
+  /* font-size: 62.5%; */
+  font-size: 1rem;
+}
+
+.small-container {
+  max-width: 1080px;
+  margin: 2em auto;
+  padding: 0 25px 10px 25px;
+}
+
+.small-container h1 {
+  font-size: 2.2rem;
+  text-align: center;
+  margin: 25px 0;
+}
